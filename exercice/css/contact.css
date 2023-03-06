@@ -1,0 +1,47 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+</style>
+    
+*{
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+/* ################## header ################### */
+
+header {
+background-color: rgb(0, 230, 0);
+display: flex;
+align-items: center;
+}
+
+/* ##############navigation############# */
+
+ul {
+    justify-content: flex-start;
+    list-style-type: none;
+    display: flex;
+    gap: 50%;
+}
+li a {
+    text-decoration-line: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration-style: ;
+    color: rgb(255, 255, 255);
+}
+li a:hover {
+        color: rgb(5, 139, 0);
+        text-decoration: underline overline yellow;
+}
+
+/*###############container#############*/
+.container {
+    margin: 5%;
+    margin-right: 50%;
+    margin-left: 10%;
+}
+main {
+background-color: yellow;
+   
+}
