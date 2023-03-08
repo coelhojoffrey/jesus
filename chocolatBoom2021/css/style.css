@@ -1,0 +1,156 @@
+
+*{
+    box-sizing: border-box;
+}
+
+nav {
+    background-color:rgb(70, 0, 0);
+        padding: 1.5em;
+        display: flex;
+        justify-content: center;
+    gap: 7%;
+        margin: 9%;
+        margin-top: 0;
+        margin-bottom: 0;
+}
+    
+a {
+        text-decoration: none;
+        color: white;
+        font-size: 25px;   
+        gap: 10%;
+        display: inline;
+}
+    
+#logo {
+        width: 400px;
+        height: 200px;
+        margin-top: -11px;
+}
+    
+img {
+        margin-top: -9px;
+        border-radius: 2%;
+        
+}
+
+aside {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+        margin-bottom: -5%;
+        width: 1600px;
+    
+}
+    
+h2 {
+        background-color: rgb(70, 0, 0);
+        color: white;
+       padding: 1%;
+       text-align: center;
+       text-transform: uppercase;
+       border-radius: 10px;
+       font-size: 27px;
+}
+    
+section {
+        background-color: rgb(0, 121, 105);
+        color: white;
+        justify-content: flex-start;
+        padding: 1%;
+        border-radius: 1%; 
+}
+    
+p {
+        font-size: 20px;
+}
+
+main {
+      display: flex;
+    gap: 0.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+  margin: 6%;
+  margin-top: 0;
+}
+
+/*########### pour la tablette #################*/
+@media screen and (max-width: 960px){
+  body {
+    margin: 0;
+  }
+  
+  #logo {
+    max-width: 35%;
+max-height: 150px;
+padding-top: 1%;
+  }
+
+  img {
+max-width: 85%;
+padding-top: 2%;
+padding-left: 1%;
+
+}
+  
+a {
+font-size: 1.4em;
+
+}
+
+nav {
+  margin: 0;
+}
+
+nav {
+    gap: 15%;
+}
+  
+main {
+  display: block;
+  padding: 0;
+  margin: 0;
+  margin-right: 0px;
+}
+
+section {
+  border-radius: 0;
+}
+
+aside {
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 25px;
+}
+
+h2 {
+margin: 35px;
+margin-left: 9px;
+margin-right: 4px;
+font-size: 18px;
+}
+
+}
+/*############# pour le tel ##############*/
+@media screen and (max-width: 560px){
+  #logo {
+    max-width: 60%;
+  }
+
+  nav {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+  }
+
+  img {
+    margin: 0;
+  }
+aside {
+  
+}
+}
