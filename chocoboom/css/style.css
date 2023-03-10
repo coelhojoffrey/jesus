@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+}
+
+nav {
+    background-color:rgb(70, 0, 0);
+    display: flex;
+        justify-content: center;
+    gap: 3%;
+    margin: 9%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+    
+a {
+        text-decoration: none;
+        color: white;
+        font-size: 25px;   
+        display: inline;
+        padding: 1em;
+}
+
+a:hover {
+    background-color: #a79189;
+    transition: ease;
+    transition-duration: 0.6s; 
+}
+    
+#logo {
+        width: 400px;
+        height: 200px;
+        margin-top: -11px;
+}
+    
+img {
+        border-radius: 2%;
+        width: 730px;
+}
+
+aside {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+        margin-bottom: -5%;
+        width: 1800px;
+    }
+    
+h2 {
+  font-family: 'sans narrow', sans-serif;
+  src: url(https://fonts.gstatic.com/s/ptsansnarrow/v17/BngRUXNadjH0qYEzV7ab-oWlsbCLwR26eg.woff2) format('woff2');
+        background-color: rgb(70, 0, 0);
+        color: white;
+       padding: 2%;
+       text-align: center;
+       border-radius: 10px;
+       text-transform: uppercase;
+       margin-top: 5%;
+}
+    
+section {
+        background-color: rgb(0, 121, 105);
+        color: white;
+        justify-content: flex-start;
+        padding: 1%; 
+        margin-right: -5px;   
+}
+    
+p {
+  font-family: 'open sans', sans-serif;
+  src: url(https://fonts.gstatic.com/s/opensans/v34/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtE6F15M.woff2) format('woff2');
+        font-size: 1.1em;
+}
+
+main {
+      display: flex;
+    gap: 0.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+  margin: 6%;
+  margin-top: 0;
+}
+
+/*########### pour la tablette #################*/
+@media screen and (max-width: 960px){
+  body {
+    margin: 0;
+  }
+  
+  #logo {
+    max-width: 35%;
+max-height: 150px;
+padding-top: 1%;
+  }
+
+  img {
+max-width: 85%;
+}
+  
+a {
+font-size: 1.4em;
+}
+a:hover {
+  background-color: #a79189;
+    transition: ease;
+    transition-duration: 0.6s; 
+}
+
+nav {
+  margin: 0;
+  gap: 10%;
+}
+ 
+main {
+  display: block;
+  padding: 0;
+  margin: 0;
+  margin-right: 0px;
+}
+
+section {
+  padding: 3%;
+}
+
+aside {
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 25px;
+}
+
+h2 {
+margin: 35px;
+margin-left: 9px;
+margin-right: 6px;
+font-size: 18px;
+}
+}
+
+/*############# pour le tel ##############*/
+@media screen and (max-width: 560px){
+  #logo {
+    max-width: 60%;
+  }
+
+  nav {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: small;
+    }
+
+a {
+    padding: 5%;
+}
+
+a:hover {
+  background-color: #a79189;
+    transition: ease;
+    transition-duration: 0.6s; 
+}
+
+  img {
+    margin: 3%;
+    max-width: 92%;
+     border-radius: 5%;
+  }
+
+    p {
+        text-align: start;
+        font-size: 0.9em;
+        margin: 3%;
+    }
+
+    h2 {
+    font-size: small;
+   padding: 3%;
+   margin-bottom: 5%;
+   margin-right: 4%;
+   margin-left: 3.5%;
+   margin-top: 5%;
+}
+    
+main {
+    margin-bottom: 2%;
+}
+
+  aside {
+  display: none;
+}
+}
